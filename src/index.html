@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="ES">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="favicon.png" type="image/png">
-  <link type="text/css" href="style.css" rel="stylesheet">  
+  <link type="text/css" href="style.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de la Compra</title>
 </head>
+
 <body>
-  
+  <header>
+    <h1>Lista de la compra</h1>
+    <nav>
+      <ul>
+        <li>Principal</li>
+        <li>Lista</li>
+        <li>Acerca de</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="items-status-bar">
+      <span class="add-item-icon"><i>+</i></span>
+      <span class="bought-items"><span class="bought-items-sum">2</span> / <span class="total-items-sum">3</span>
+    </section>
+
+    <section class="item-check-list">
+      <form>
+        <label><input type="checkbox" class="bought-item">Pan</label>
+        <label><input type="checkbox" class="pending-item">Azúcar</label>
+        <label><input type="checkbox" class="bought-item">Leche</label>
+        <label><input type="checkbox" class="pending-item">Tofu</label>
+      </form>
+    </section>
+
+    <section>
+      <hr class="subtotal-line">
+    </section>
+    <span class="subtotal">6.30€</span>
+
+  </main>
+
 </body>
+
 </html>
