@@ -15,9 +15,8 @@
     <h1>Lista de la compra</h1>
     <nav>
       <ul>
-        <li>Principal</li>
-        <li>Lista</li>
-        <li>Acerca de</li>
+        <li><a href="#">Lista compra</a></li>
+        <li><a href="add-item">Añadir producto</a></li>
       </ul>
     </nav>
   </header>
@@ -28,17 +27,24 @@
       <span class="bought-items"><span class="bought-items-sum">2</span> / <span class="total-items-sum">3</span>
     </section>
 
-    <section class="item-check-list">
-      <form>
-        <label><input type="checkbox" class="bought-item">Pan</label>
-        <label><input type="checkbox" class="pending-item">Azúcar</label>
-        <label><input type="checkbox" class="bought-item">Leche</label>
-        <label><input type="checkbox" class="pending-item">Tofu</label>
-      </form>
+    <section class="item-list">
+      <div class="item-check-list">
+        <form>
+          <label><input type="checkbox" class="bought-item">Pan</label>
+          <label><input type="checkbox" class="pending-item">Azúcar</label>
+          <label><input type="checkbox" class="bought-item">Leche</label>
+          <label><input type="checkbox" class="pending-item">Tofu</label>
+        </form>
+      </div>
+      <div class="item-price-list">
+        <span class="bought-item">0.75€ <i></i></span>
+        <span class="pending-item"><i></i></span>
+        <span class="bought-item">1.20€<i></i></span>
+        <span class="bought-item">4.35€<i></i></span>
+      </div>
     </section>
 
     <section>
-      <hr class="subtotal-line">
     </section>
     <span class="subtotal">6.30€</span>
 
