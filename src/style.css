@@ -1,1 +1,97 @@
 @import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  background-color: #279989;
+}
+
+.items-status-bar {
+  background-color: #44a080;
+}
+
+main {
+  flex: 3;
+  background-color: #ffc845;
+}
+
+ul {
+  flex: 1;
+  list-style-type: none;
+}
+
+.item-list {
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.items-status-bar {
+  padding: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.item-price-list {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  padding: 10px;
+}
+
+.item-check-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+
+.add-item-icon {
+  flex: 1;
+}
+
+.bought-items {
+  flex: 1;
+}
+
+.subtotal {
+  color: #000;
+  flex: 1;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  flex: 1;
+  background-color: #ffc845;
+  border-top: 2px solid #000;
+  text-align: right;
+}
